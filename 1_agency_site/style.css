@@ -1,0 +1,20 @@
+* {
+    color: white!important;
+}
+
+
+.bg-primary {
+    background:linear-gradient(to right,#ad4ec5 ,#771a8e)!important;
+}
+
+.btn-primary {
+    background:#64097b!important;
+    outline: none;
+    border: 0px;
+}
+
+
+.btn-play{
+    width: 50px;
+    
+}
