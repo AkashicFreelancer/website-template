@@ -1,0 +1,12 @@
+.app__header {
+    background: var(--color-black);
+}
+
+.app__header-h1{
+    color: var(--color-golden);
+    font-size: 3rem;
+}
+
+.app__header_img img{
+    width: 70%!important;
+}

@@ -1,0 +1,40 @@
+.possibility {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.possibility .possibility-image{
+    flex-basis: 50%;
+}   
+
+.possibility .possibility-image img{
+    width: 100%;
+}
+
+.possibility .possibility-content{
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.possibility .possibility-content p {
+    color: #5985b0;
+    font-size: 14px;
+}
+
+.possibility .possibility-content h4:first-child {
+    color: #81AFDD;
+}
+
+.possibility .possibility-content h4:last-child {
+    color: #FF8A71;
+}
+
+@media screen and (max-width: 1050px) {
+    .possibility {
+        flex-direction: column;
+    }
+}

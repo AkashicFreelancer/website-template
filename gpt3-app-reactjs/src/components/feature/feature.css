@@ -1,0 +1,24 @@
+.feature-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.feature-content__title {
+    display: flex;
+    flex-direction: column;
+}
+.feature-content__title div {
+    width: 3rem;
+    height: 0.2rem;
+    background: var(--gradient-text);
+}
+
+.feature-content__text {
+    font-size: 14px;
+    color: #81AFDD;
+    min-width: 200px;
+}
